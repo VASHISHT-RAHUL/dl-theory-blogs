@@ -8,13 +8,12 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 ---
 
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
 
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+  
 ### This is a header
 
-#### Some T-SQL Code
+
 
 ```tsql
 SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
