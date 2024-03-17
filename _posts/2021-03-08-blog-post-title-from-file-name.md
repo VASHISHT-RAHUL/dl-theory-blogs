@@ -8,8 +8,9 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 ---
 
-
+ {% raw %}
   $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
   
 ### This is a header
 
