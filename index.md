@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Hi, I am Rahul a Ph.D. Scholar at Department of CSE at IIT Madras. This is a blog to discuss topics in machine learning. 
