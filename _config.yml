@@ -1,12 +1,11 @@
 title: DL Theory Blogs
 author: Rahul Vashisht
-  name: VASHISHT-RAHUL
-  email: rahul@cse.iitm.ac.in
+name: VASHISHT-RAHUL
+email: rahul@cse.iitm.ac.in
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-Blog to discuss/understand topics in machine learning
+description: > Blog to discuss/understand topics in machine learning
 
 # Build settings
 
