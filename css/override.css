@@ -1,16 +1,26 @@
-hr {
-  margin-top: 30px;
-  margin-bottom: 20px;
+.post_navi {
+  display: flex;               /* Enable Flexbox */
+  justify-content: space-between; /* Space items */
+  align-items: center;         /* Vertically align */
+  width: 100%;                 /* Full width */
+  max-width: 800px;            /* Optional: Constrain max width */
+  margin: 0 auto;              /* Center align container */
+  gap: 10px;                   /* Space between items */
+  flex-wrap: nowrap;           /* Prevent wrapping */
 }
 
-/* Post navigation links */
-.post_navi {
-  display: flex;              /* Use flexbox for layout */
-  justify-content: space-between; /* Space out items: one on left, one on right */
-  align-items: center;        /* Vertically center the items */
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;                /* Ensure it spans the full width */
+.post_navi-item {
+  text-decoration: none;
+  color: inherit;
+  display: flex;               /* Flex layout for inner content */
+  align-items: center;
+  max-width: 45%;              /* Prevent items from being too wide */
+  overflow: hidden;            /* Handle overflow gracefully */
+}
+
+.post_navi-arrow {
+  font-size: 1.5em;
+  margin-right: 8px;
 }
 
 .post_navi-label {
@@ -18,16 +28,7 @@ hr {
   opacity: 0.5;
 }
 
-.post_navi .post_navi-item {
-  text-decoration: none;      /* Remove underline from links */
-  color: inherit;             /* Use parent text color */
-  display: flex;              /* Ensure inner content aligns properly */
-  align-items: center;        /* Vertically align inner content */
-}
-
-.post_navi .post_navi-arrow {
-  font-size: 1.5em;           /* Adjust size */
-  margin-right: 8px;          /* Add space between arrow and text */
-  opacity: 0.5;               /* Optional styling */
-  position: static;           /* Allow Flexbox to handle positioning */
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
