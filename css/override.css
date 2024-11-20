@@ -8,8 +8,9 @@ hr {
   display: flex;              /* Use flexbox for layout */
   justify-content: space-between; /* Space out items: one on left, one on right */
   align-items: center;        /* Vertically center the items */
-  margin-top: 10px;           /* Adjust spacing as needed */
-  margin-bottom: 10px;        /* Adjust spacing as needed */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;                /* Ensure it spans the full width */
 }
 
 .post_navi-label {
@@ -24,26 +25,9 @@ hr {
   align-items: center;        /* Vertically align inner content */
 }
 
-.post_navi .nav_prev {
-  text-align: left;
-}
-
-.post_navi .nav_next {
-  text-align: right;
-}
-
-.post_navi .nav_prev .post_navi-arrow {
-  left: 0;
-}
-
-.post_navi .nav_next .post_navi-arrow {
-  right: 0;
-}
-
 .post_navi .post_navi-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
-  opacity: 0.3;
+  font-size: 1.5em;           /* Adjust size */
+  margin-right: 8px;          /* Add space between arrow and text */
+  opacity: 0.5;               /* Optional styling */
+  position: static;           /* Allow Flexbox to handle positioning */
 }
